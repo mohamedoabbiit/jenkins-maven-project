@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn -f hello-app/pom.xml -B -DskipTests clean package'
-                echo 'Hi Mohamed Welcome to jenkins'
+                echo 'Hi Mohamed Welcome to jenkins just checkin '
             }
             post {
                 success {
